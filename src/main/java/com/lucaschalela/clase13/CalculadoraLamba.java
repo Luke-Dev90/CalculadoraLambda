@@ -42,7 +42,7 @@ public class CalculadoraLamba {
 		switch (operacion) {
 		case "sumar":
 		case "suma":
-		case "+":
+		case "+": 
 			Calculadora S = (uno, dos) -> uno + dos;
 			System.out.println(S.operacion(a, b));
 			break;
